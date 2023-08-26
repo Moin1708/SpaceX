@@ -1,0 +1,59 @@
+
+body{
+    background-color: rgb(215, 247, 247);
+}
+.img1{
+    background-image: url('./Home/spacex_bg.jpg');
+    width: 100%;
+}
+.main{
+    height: calc(100vh - 72px);
+}
+.mar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.s1{
+    font-weight: 700;
+}
+.b1{
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    text-decoration: none !important;
+}
+.anchor1{
+    text-decoration: none;
+    color: white;
+}
+.main_sec{
+    text-align: center;
+    margin: 30px;
+}
+
+.m2{
+    margin: 0 auto;
+}
+.h1{
+    text-align: center;
+    /* margin: 30px; */
+    font-weight: 700;
+}
+.newd{
+    margin: 0 auto;
+}
+.primary:hover{
+    background-color:red !important;
+    color: #fff;
+}
+.primary{
+    background-color: #000;
+    color: #fff;
+}
+.ant-card-meta-description{
+    display: -webkit-box;
+    -webkit-line-clamp:4;
+    -webkit-box-orient: vertical;
+    overflow:hidden;
+}
