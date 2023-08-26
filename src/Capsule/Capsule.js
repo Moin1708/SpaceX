@@ -67,7 +67,7 @@ function Launches() {
                 }}
                 className="m2"
                 cover={
-                  <img alt="example" src={rocket.links?.flickr_images.mission_patch_small} height="200px"/>
+                  <img alt="example" src={rocket.image} height="200px"/>
                 }
                 actions={[
                   <SettingOutlined key="setting" />,
