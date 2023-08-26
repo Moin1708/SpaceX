@@ -22,7 +22,7 @@ function Header() {
           <NavLink className="nav-link m-2" to={'/launches'}>Launches</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link m-2" to={'/capsule'}>Capsules</NavLink>
+          <NavLink className="nav-link m-2" to={'/capsule'}>Ships</NavLink>
         </li>
       </ul>
     </div>
