@@ -18,7 +18,7 @@ function Launches() {
 
   const [limit, setLimit] = useState(6);
 
-  const [offset, setOffset] = useState(8);
+  const [offset, setOffset] = useState(4);
   const [rockets, setRocket] = useState([]);
   const [modal,setModal]=useState({
 
