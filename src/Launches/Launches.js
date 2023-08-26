@@ -16,7 +16,7 @@ const { Meta } = Card;
 function Launches() {
   const navigate = useNavigate();
 
-  const [limit, setLimit] = useState(8);
+  const [limit, setLimit] = useState(6);
 
   const [offset, setOffset] = useState(8);
   const [rockets, setRocket] = useState([]);
