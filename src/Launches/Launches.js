@@ -16,7 +16,7 @@ const { Meta } = Card;
 function Launches() {
   const navigate = useNavigate();
 
-  const [limit, setLimit] = useState(6);
+  const [limit, setLimit] = useState(8);
 
   const [offset, setOffset] = useState(4);
   const [rockets, setRocket] = useState([]);
@@ -67,7 +67,7 @@ function Launches() {
                 }}
                 className="m2"
                 cover={
-                  <img alt="example" src={rocket.links?.mission_patch_small} height="200px"/>
+                  <img alt="example" src={rocket.links?.mission_patch_small} height="300px"/>
                 }
                 actions={[
                   <SettingOutlined key="setting" />,
