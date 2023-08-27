@@ -62,7 +62,7 @@ function Rocket() {
       <div className="row">
         {rockets.map((rocket) => {
           return (
-            <div class="col-3">
+            <div class="col-3 mb-5">
               <Card
                 hoverable
                 style={{

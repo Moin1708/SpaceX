@@ -55,9 +55,9 @@ function Categories() {
     style={{
       width: '80%',
     }}className='m2'
-    cover={<img alt="Capsule" src={rimg3} height='200px'/>}>
-    <Meta title="Capsule"  />
-    <Meta description="Capsules: Discover the innovative spacecraft capsules by SpaceX, engineered to transport astronauts ." /> 
+    cover={<img alt="Ships" src={rimg3} height='200px'/>}>
+    <Meta title="Ships"  />
+    <Meta description="Ships: Discover the innovative spacecraft Ships by SpaceX, engineered to transport astronauts ." /> 
     <Divider/>
     <Button type="primary" className='d-flex align-items-center newd primary' onClick={()=>navigate('capsule')}>Details <InfoCircleOutlined /> </Button>
   </Card>

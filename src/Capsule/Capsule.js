@@ -59,7 +59,7 @@ function Launches() {
       <div className="row">
         {rockets.map((rocket) => {
           return (
-            <div class="col-3">
+            <div class="col-3 mb-5">
               <Card
                 hoverable
                 style={{
@@ -89,17 +89,17 @@ function Launches() {
             </div>
           );
         })}
-        <Modal title={modal.rocket_name} open={isModalOpen} onOk={handleOk} onCancel={handleCancel} footer={null}>
+        <Modal title={modal.ship_name} open={isModalOpen} onOk={handleOk} onCancel={handleCancel} footer={null}>
                   <hr />
-                  <p>Capsule Id: {modal.capsule_id}</p>
+                  <p>Class: {modal.class}</p>
                   <hr />
-                  <p>Capsule serial: {modal.capsule_serial}</p>
+                  <p>Port number: {modal.home_port}</p>
                   <hr />
-                  <p>Details: {modal.details}</p>
+                  <p>Roles: {modal.roles}</p>
                   <hr />
-                  <p>Launch: {modal.original_launch}</p>
+                  <p>Ship Weight: {modal.weight_kg}</p>
                   <hr />
-                  <p>Launch: {modal.status}</p>
+                  <p>Ship Type: {modal.ship_type}</p>
                 </Modal>
       </div>
     </div>

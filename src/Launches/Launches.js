@@ -59,7 +59,7 @@ function Launches() {
       <div className="row">
         {rockets.map((rocket) => {
           return (
-            <div class="col-3">
+            <div class="col-3 mb-5">
               <Card
                 hoverable
                 style={{
@@ -92,15 +92,15 @@ function Launches() {
         <Modal title={modal.rocket_name} open={isModalOpen} onOk={handleOk} onCancel={handleCancel} footer={null}>
                   {/* <p>Mission Name: {modal.mission_name}</p> */}
                   <hr />
-                  <p>Ships: {modal.ships}</p>
+                  <p>Launch Year: {modal.launch_year}</p>
                   <hr />
-                  <p>Launch success: {modal.launch_success}</p>
+                  <p>Ships: {modal.ships}</p>
                   <hr />
                   <p>Flight Number: {modal.flight_number}</p>
                   <hr />
                   <p>Launch Date: {modal.launch_date_utc}</p>
                   <hr />
-                  <p>First Flight: {modal.first_flight}</p>
+                  <p>Mission Namet: {modal.mission_name}</p>
                   <hr />
                    
                 </Modal>
