@@ -13,7 +13,7 @@ function Header() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active m-2" aria-current="page" href="#">Home</a>
+          <a className="nav-link active m-2" aria-current="page" href="https://moin-spacex.netlify.app/">Home</a>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link m-2" to={'/rocket'}>Rockets</NavLink>
