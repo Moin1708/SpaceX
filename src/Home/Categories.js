@@ -3,6 +3,7 @@ import { Card } from 'antd';
 import rimg1 from '../Home/Rimg1.webp'
 import rimg2 from '../Home/Rimg2.webp'
 import rimg3 from '../Home/Rimg3.jpg'
+import Ships from '../Home/shipsSpacex.jpg'
 import { Divider } from 'antd'
 import { Button, Space } from 'antd';
 import { InfoCircleOutlined } from '@ant-design/icons';
@@ -55,7 +56,7 @@ function Categories() {
     style={{
       width: '80%',
     }}className='m2'
-    cover={<img alt="Ships" src={rimg3} height='200px'/>}>
+    cover={<img alt="Ships" src={Ships} height='200px'/>}>
     <Meta title="Ships"  />
     <Meta description="Ships: Discover the innovative spacecraft Ships by SpaceX, engineered to transport astronauts ." /> 
     <Divider/>
