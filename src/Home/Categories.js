@@ -27,7 +27,7 @@ function Categories() {
     hoverable
     style={{
       width: '80%',
-     }} className='m2'
+     }} className='m2 mq2 mb-5'
     cover={<img alt="example" src={rimg1} height='200px'/>}>
     <Meta title="Rocket"  />
     <Meta  description="Rockets: Explore SpaceX's cutting-edge rockets designed for efficient and groundbreaking space travel." /> 
@@ -41,7 +41,7 @@ function Categories() {
     hoverable
     style={{
       width: '80%',
-    }}className='m2'
+    }}className='m2 mq2 mb-5'
     cover={<img alt="example" src={rimg2} height='200px'/>}>
     <Meta title="Launches" />
     
@@ -55,7 +55,7 @@ function Categories() {
     hoverable
     style={{
       width: '80%',
-    }}className='m2'
+    }}className='m2 mq2 mb-5'
     cover={<img alt="Ships" src={Ships} height='200px'/>}>
     <Meta title="Ships"  />
     <Meta description="Ships: Discover the innovative spacecraft Ships by SpaceX, engineered to transport astronauts ." /> 

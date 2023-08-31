@@ -56,7 +56,7 @@ function Rocket() {
   }
 
   return (
-    <div>
+    <div style={{overflow:"hidden"}}>
       <Header />
         <h1 className="main_sec">Rockets</h1>
       <div className="row">

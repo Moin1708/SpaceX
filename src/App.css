@@ -58,5 +58,17 @@ body{
     overflow:hidden;
 }
 @media only screen and (max-width: 568px) {
-   .mq1{width: 480px;}
+   .mq1{width: 450px !important;
+
+}
+   .mq2{width: 300px !important;
+    margin-left: 20px;
+}
+   .main{
+    height: 500px;
+}
+   .mq3{
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
   }
