@@ -62,13 +62,13 @@ function Rocket() {
       <div className="row">
         {rockets.map((rocket) => {
           return (
-            <div class="col-3 mb-5">
+            <div className="col-3 mb-5 mq1">
               <Card
                 hoverable
                 style={{
                   width: "80%",
                 }}
-                className="m2"
+                className="m2 "
                 cover={
                   <img alt="example" src={rocket.flickr_images}height="200px"/>
                 }

@@ -57,3 +57,6 @@ body{
     -webkit-box-orient: vertical;
     overflow:hidden;
 }
+@media only screen and (max-width: 568px) {
+   .mq1{width: 480px;}
+  }
