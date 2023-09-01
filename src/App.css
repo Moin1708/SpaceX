@@ -25,7 +25,7 @@ body{
 }
 .anchor1{
     text-decoration: none;
-    color: white;
+    color: white !important;
 }
 .main_sec{
     text-align: center;
@@ -56,6 +56,11 @@ body{
     -webkit-box-orient: vertical;
     overflow:hidden;
 }
+
+a:-webkit-any-link {
+    text-decoration: none !important;
+    color: #000;
+}
 @media only screen and (max-width: 568px) {
    .mq1{width: 450px !important;
 
@@ -70,5 +75,13 @@ body{
    .mq3{
     margin-left: 20px;
     margin-bottom: 50px;
+}
+.st1{
+    margin: 5px !important;
+
+}
+.setNav{
+    position: relative;
+    right: 10px;
 }
   }
